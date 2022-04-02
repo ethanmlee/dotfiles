@@ -10,7 +10,7 @@
 source ~/.aliasrc
 
 # change prompt
-PS1="\[\033[38;5;7m\][\[$(tput sgr0)\]\[\033[38;5;11m\]bash.\u@\h\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;7m\]]\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;13m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+PS1="\[\033[38;5;13m\](ssh)\[\033[38;5;7m\][\[$(tput sgr0)\]\[\033[38;5;11m\]\u@\h\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;7m\]]\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;13m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 # History:
 HISTSIZE=10000
