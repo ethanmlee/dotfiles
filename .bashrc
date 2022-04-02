@@ -17,11 +17,3 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTCONTROL=ignoreboth
 HISTFILE=~/.history
-
-# startx automatically
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-startx
-fi
-
-# path
-export PATH=$PATH:/home/ethan/.local/bin/
