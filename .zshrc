@@ -11,14 +11,7 @@ source ~/.aliasrc
 
 # Enable colors and change prompt:
 autoload -U colors && colors
-PS1="[%F{yellow}%n%f%F{yellow}@%f%F{yellow}%m%f %F{cyan}%~%f]%F{magenta}$%f "
-
-# Dynamic window title
-case $TERM in
-  rxvt-unicode-256color|(dt|k|E)term)
-    precmd () { print -Pn "\e]0;urxvt %~\a" }
-    preexec () { print -Pn "\e]0;$1\a" }
-esac
+PS1="%F{magenta}(ssh)%f[%F{yellow}%n%f%F{yellow}@%f%F{yellow}%m%f %F{cyan}%~%f] %F{magenta}$%f "
 
 # History:
 HISTSIZE=10000
@@ -34,14 +27,7 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots) # Include hidden files.
 
-# startx in tty1
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then startx; fi
-
-# path
-export PATH=$PATH:/home/ethan/.local/bin/
-
 # plugins
-
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^ ' autosuggest-accept
 bindkey '^f' forward-word
