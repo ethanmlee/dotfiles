@@ -1,0 +1,7 @@
+https:push.services.mozilla.com:443:.::3	0	19460	https:push.services.mozilla.com:443:push.services.mozilla.com:443::n:1684004408:h3:y:1681395949:n::|n:y:
+https:www.google.com:443:.:^firstPartyDomain=google-b-1-d.search.suggestions.mozilla:3	0	19460	https:www.google.com:443:www.google.com:443::n:1684004459:h3:y:1681412407:n:^firstPartyDomain=google-b-1-d.search.suggestions.mozilla:|n:y:
+https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	0	19460	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1684004469:h3:y:1681395949:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
+https:cdn.jsdelivr.net:443:.:^partitionKey=%28file%2C%29:3	0	19460	https:cdn.jsdelivr.net:443:cdn.jsdelivr.net:443::n:1681498869:h3:y:1681412407:n:^partitionKey=%28file%2C%29:|n:y:
+https:ajax.googleapis.com:443:.:^partitionKey=%28file%2C%29:3	0	19460	https:ajax.googleapis.com:443:ajax.googleapis.com:443::n:1684004469:h3:y:1681412407:n:^partitionKey=%28file%2C%29:|n:y:
+https:fonts.googleapis.com:443:.:^partitionKey=%28file%2C%29:3	0	19460	https:fonts.googleapis.com:443:fonts.googleapis.com:443::n:1684004469:h3:y:1681412407:n:^partitionKey=%28file%2C%29:|n:y:
+https:cdnjs.cloudflare.com:443:.:^partitionKey=%28file%2C%29:3	0	19460	https:cdnjs.cloudflare.com:443:cdnjs.cloudflare.com:443::n:1681498869:h3:y:1681412407:n:^partitionKey=%28file%2C%29:|n:y:

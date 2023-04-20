@@ -1,4 +1,2 @@
-{"timestamp":251061,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"nimbus-qa-1","experiment":"nimbus-pref-qa-1-4week-experiment","reason":"invalid-feature"}}
-{"timestamp":251061,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","feature":"nimbus-qa-1","experiment":"nimbus-pref-qa-1-4week-rollout"}}
-{"timestamp":251062,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","experiment":"nimbus-pref-qa-2-4week-experiment","feature":"nimbus-qa-2"}}
-{"timestamp":251062,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"nimbus-qa-2","reason":"invalid-feature","experiment":"nimbus-pref-qa-2-4week-rollout"}}
+{"timestamp":16764032,"category":"nimbus_events","name":"enrollment","extra":{"enrollment_id":"a397c570-f27f-48b6-8e95-49e3f741908f","branch":"control","experiment":"import-infrequent-rollout-make-yourself-at-home","experiment_type":"rollout"}}
+{"timestamp":16764231,"category":"nimbus_events","name":"exposure","extra":{"branch":"control","feature_id":"fxms-message-1","experiment":"import-infrequent-rollout-make-yourself-at-home"}}
